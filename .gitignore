@@ -24,3 +24,10 @@ node_modules/
 
 # Temp analysis files
 temp/
+# secrets & dumps
+.env*
+!.env.example
+*.sql
+backups/
+*.backup
+*.rsc
